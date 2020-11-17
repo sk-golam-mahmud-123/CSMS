@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <?php
+    //AIUB
         $e_id = $name = $dob = $addr = $doj = $fileToUpload = $country = $state = $city = $e_idErr = $nameErr = $dobErr = $addrErr = $dojErr = $fileToUploadErr = $countryErr =  $stateErr = $cityErr = "" ;
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $target_dir = "files/";
